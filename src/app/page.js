@@ -1,4 +1,6 @@
+import LoginButton from "../components/LoginButton";
 import Home from "../../pages/inedex";
+import AddUserFormWithServerAction from "@/components/AddUserFormWithServerAction";
 
 export const metadata = {
   title: "Home",
@@ -16,6 +18,8 @@ export default function HomePage() {
       </div>
       <div className="w-full mt-8">
         <Home />
+        <LoginButton />
+        <AddUserFormWithServerAction />
       </div>
     </main>
   );

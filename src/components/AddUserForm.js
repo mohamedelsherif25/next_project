@@ -27,7 +27,7 @@ const AddUserForm = () => {
       className="max-w-md mx-auto p-6 bg-white shadow-md rounded-lg space-y-4 mb-5"
     >
       <h2 className="text-xl font-bold text-gray-800 text-center">
-        Add New User
+        Add New User From Api
       </h2>
 
       <div>

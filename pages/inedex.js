@@ -1,4 +1,3 @@
-// pages/index.js
 import Head from "next/head";
 import UserList from "../src/components/UserList";
 import AddUserForm from "../src/components/AddUserForm";

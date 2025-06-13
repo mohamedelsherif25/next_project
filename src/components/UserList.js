@@ -26,18 +26,14 @@ export default function UserList() {
     <div className="max-w-2xl mx-auto p-6 bg-white shadow-md rounded-lg">
       <h2 className="text-2xl font-bold text-gray-800 mb-4">Users List</h2>
 
-      {/* حالة التحميل */}
       {loading && <p className="text-center text-gray-500">Loading users...</p>}
 
-      {/* حالة الخطأ */}
       {error && <p className="text-center text-red-500">Error: {error}</p>}
 
-      {/* حالة وجود بيانات */}
       {!loading && !error && users.length === 0 && (
         <p className="text-center text-gray-500">No users found.</p>
       )}
 
-      {/* قائمة المستخدمين */}
       {!loading && !error && users.length > 0 && (
         <ul className="space-y-3">
           {users.map((user) => (
